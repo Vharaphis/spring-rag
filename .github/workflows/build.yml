@@ -108,7 +108,7 @@ jobs:
         run: kubectl get nodes
       - name: Deploy the image to minikube
         run: |
-          docker pull filliolaud/spring-rag:latest
+          docker pull vharaphis/spring-rag/general
           kubectl apply -f src/main/k8s/deployment.yml
       - name: Get Kubernetes service URL
         run: |

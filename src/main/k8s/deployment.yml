@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: spring-rag
-          image: docker.io/filliolaud/spring-rag:latest
+          image: docker.io/vharaphis/spring-rag:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
